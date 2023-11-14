@@ -61,8 +61,55 @@ p {
     margin: 0;
     color: #8294C4;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  background:#fcfcfc;
+  width:400px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 38%;
 
-/* Add more styles and content for your homepage as needed */
+}
+input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 132, 255);
+}
+
+
+textarea {
+  resize: vertical;
+}
+input,
+textarea {
+  padding: 10px;
+  margin: 5px 20px 20px 20px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+
+
+
+button {
+  outline: none;
+  background: rgb(0, 132, 255);
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background: rgb(0, 105, 204);
+}
+
+
 
 
 
@@ -123,4 +170,24 @@ span{
 .hire:hover{
   background: #000;
   border: 1px solid #4070f4;
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 150px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
